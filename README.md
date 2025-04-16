@@ -1,7 +1,13 @@
 # Stethoscope_Capstone_2025
 Repository for Wearable Miniaturized Stethoscope for Capstone 2024-2025
+This repository contains the following:
+- Live Plotting: Code to have microcontroller write to serial and display live data for debugging
+- Microcontroller: Code for microcontroller
+- Sample Data: Sample of binary files with heartbeat data the Capstone team collected during testing
+- Post Processing: Jupyter notebook that reads the binary file and filters data, then outputs plots, audio files, csv files, and calculated heartrate
 
 ## Post Processing Code
+[SimPL Digital Stethoscope Post Processing (Updated for SD_New_Format)]  
 It is recommended to run this code in a local development environment as most browser-based environments do not support the library _tkinter_ which is used to prompt the user for the file for analysis
 
 The current post-processing code uses a band-pass range of 20-150 Hz. Adjustments to the sensitivity of the detected pulses can be made by altering the bandpass range, the noise threshold, or the parameters in the function _find_peaks_ used to find the variable _peaks_
