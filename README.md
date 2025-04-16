@@ -1,5 +1,5 @@
 # Stethoscope_Capstone_2025
-Repository for Wearable Miniaturized Stethoscope for Capstone 2024-2025
+Repository for Wearable Miniaturized Stethoscope for Capstone 2024-2025  
 This repository contains the following:
 - Live Plotting: Code to have microcontroller write to serial and display live data for debugging
 - Microcontroller: Code for microcontroller
