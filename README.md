@@ -1,10 +1,10 @@
 # Stethoscope_Capstone_2025
 Repository for Wearable Miniaturized Stethoscope for Capstone 2024-2025
 
-# Post Processing Code
-It is recommended to run this code in a local development environment as most browser-based environments do not support the library "tkinter" which is used to prompt the user for the file for analysis
+## Post Processing Code
+It is recommended to run this code in a local development environment as most browser-based environments do not support the library _tkinter_ which is used to prompt the user for the file for analysis
 
-The current post-processing code uses a band-pass range of 20-150 Hz. Adjustments to the sensitivity of the detected pulses can be made by altering the bandpass range, the noise threshold, or the parameters in the function find_peaks used to find the variable "peaks"
+The current post-processing code uses a band-pass range of 20-150 Hz. Adjustments to the sensitivity of the detected pulses can be made by altering the bandpass range, the noise threshold, or the parameters in the function _find_peaks_ used to find the variable _peaks_
 
 The operation procedure for the post-processing software is as follows:
 1. With the power to the stethoscope off and disconnected, use a 1.5mm hex key to unscrew  and remove the lid of the battery enclosure.
